@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 
-public class UpgradeDropper : MonoBehaviour
+public class UpgradeDropper7 : MonoBehaviour
 {
     TextMeshProUGUI buttonText;
     Button button;
@@ -12,12 +12,10 @@ public class UpgradeDropper : MonoBehaviour
     int upgradeCount = 0;
     [SerializeField] int maxUpgrade = 5;
     [SerializeField] Dropper dropperScript;
-    // int dropperNum = 0;
 
 
     private void Start() {
         button = GetComponent<Button>();
-        gameObject.SetActive(false);
         buttonText = GetComponentInChildren<TextMeshProUGUI>();
     }
 
@@ -35,7 +33,7 @@ public class UpgradeDropper : MonoBehaviour
                 dropperScript.UpgradeDropper();
                 FedCounter.instance.RemoveFed(price);
                 PriceIncrease();
-                SwapText();
+                UpdateText();
                 upgradeCount += 1;
             }
             else
@@ -47,7 +45,7 @@ public class UpgradeDropper : MonoBehaviour
         price *= 1.15f;
     }
 
-    private void SwapText() {
-        buttonText.text = "Upgrade Dropper: Fed " + price;
+    private void UpdateText() {
+        buttonText.text = "Upgrade Dropper 7: Fed " + price;
     }
 }

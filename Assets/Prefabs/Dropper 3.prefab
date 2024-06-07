@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: -409211360339828837}
   - component: {fileID: 6282628258280809352}
   m_Layer: 0
-  m_Name: Dropper
+  m_Name: Dropper 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -28,7 +28,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 650, y: 720, z: 0}
-  m_LocalScale: {x: 600, y: 600, z: 1}
+  m_LocalScale: {x: 15, y: 15, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -75,9 +75,9 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 10915, guid: 0000000000000000f000000000000000, type: 0}
-  m_Color: {r: 0, g: 0.91935205, b: 1, a: 1}
+  m_SortingOrder: -1
+  m_Sprite: {fileID: -5585221869465277186, guid: 23795efea9b64d147af93e5587c5be31, type: 3}
+  m_Color: {r: 0.079476655, g: 0.079476655, b: 0.8867924, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -101,5 +101,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   food: {fileID: 6304003264711892038, guid: 08c21ced53f8e1246a2878e2d7f4e3c3, type: 3}
   delaySpawn: 1
-  foodVal: 1
+  foodVal: 3
   foodCount: 1

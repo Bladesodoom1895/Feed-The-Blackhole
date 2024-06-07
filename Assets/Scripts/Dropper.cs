@@ -34,8 +34,14 @@ public class Dropper : MonoBehaviour
 
     public void UpgradeDropper() {
         // can increase food count, food value, and decrease spawn delay
-        delaySpawn -= 0.15f;
-        foodCount += 1;
-        foodVal += 1;
+        if (delaySpawn <= 0.25f) {
+            foodCount += 1;
+            foodVal += 1;
+        }
+        else {
+            delaySpawn -= 0.15f;
+            foodCount += 1;
+            foodVal += 1;
+        }
     }
 }

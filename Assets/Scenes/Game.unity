@@ -1186,7 +1186,6 @@ GameObject:
   m_Component:
   - component: {fileID: 38626664}
   - component: {fileID: 38626663}
-  - component: {fileID: 38626665}
   m_Layer: 0
   m_Name: Space
   m_TagString: Untagged
@@ -1267,18 +1266,6 @@ RectTransform:
   m_AnchoredPosition: {x: 959, y: 534}
   m_SizeDelta: {x: 26.666666, y: 15}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &38626665
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 38626662}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: eb4c0c799d13d6f4d99fa24af3e7982e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &38844802
 GameObject:
   m_ObjectHideFlags: 0
@@ -4431,7 +4418,6 @@ GameObject:
   - component: {fileID: 167247078}
   - component: {fileID: 167247080}
   - component: {fileID: 167247081}
-  - component: {fileID: 167247082}
   m_Layer: 0
   m_Name: BlackHole
   m_TagString: Blackhole
@@ -4660,18 +4646,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 16fe017c45ec44b459aaa06f65bfe6d9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &167247082
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 167247075}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: eb4c0c799d13d6f4d99fa24af3e7982e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &176642439
@@ -6193,7 +6167,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 293614517}
-  - component: {fileID: 293614518}
   m_Layer: 0
   m_Name: Obstacles
   m_TagString: Untagged
@@ -6228,18 +6201,6 @@ RectTransform:
   m_AnchoredPosition: {x: 828, y: 291}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &293614518
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 293614515}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: eb4c0c799d13d6f4d99fa24af3e7982e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &298292848
 GameObject:
   m_ObjectHideFlags: 0
@@ -14736,7 +14697,6 @@ GameObject:
   - component: {fileID: 747674248}
   - component: {fileID: 747674247}
   - component: {fileID: 747674246}
-  - component: {fileID: 747674250}
   m_Layer: 0
   m_Name: RampR
   m_TagString: Untagged
@@ -14890,18 +14850,6 @@ RectTransform:
   m_AnchoredPosition: {x: 1714.3937, y: 236.7657}
   m_SizeDelta: {x: 1, y: 1}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &747674250
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 747674245}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: eb4c0c799d13d6f4d99fa24af3e7982e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &761669858
 GameObject:
   m_ObjectHideFlags: 0
@@ -16424,7 +16372,6 @@ GameObject:
   - component: {fileID: 816999152}
   - component: {fileID: 816999151}
   - component: {fileID: 816999150}
-  - component: {fileID: 816999154}
   m_Layer: 0
   m_Name: WallR
   m_TagString: Untagged
@@ -16578,18 +16525,6 @@ RectTransform:
   m_AnchoredPosition: {x: 2031, y: 754.3}
   m_SizeDelta: {x: 1, y: 1}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &816999154
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 816999149}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: eb4c0c799d13d6f4d99fa24af3e7982e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &819098587
 GameObject:
   m_ObjectHideFlags: 0
@@ -38410,7 +38345,6 @@ GameObject:
   - component: {fileID: 2066554364}
   - component: {fileID: 2066554366}
   - component: {fileID: 2066554367}
-  - component: {fileID: 2066554368}
   m_Layer: 0
   m_Name: RampL
   m_TagString: Untagged
@@ -38564,18 +38498,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &2066554368
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2066554361}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: eb4c0c799d13d6f4d99fa24af3e7982e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &2068767901
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -38862,7 +38784,6 @@ GameObject:
   - component: {fileID: 2084805993}
   - component: {fileID: 2084805992}
   - component: {fileID: 2084805991}
-  - component: {fileID: 2084805995}
   m_Layer: 0
   m_Name: WallL
   m_TagString: Untagged
@@ -39016,18 +38937,6 @@ RectTransform:
   m_AnchoredPosition: {x: -118.4, y: 750.6545}
   m_SizeDelta: {x: 1, y: 1}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &2084805995
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2084805990}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: eb4c0c799d13d6f4d99fa24af3e7982e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &2098410132
 GameObject:
   m_ObjectHideFlags: 0

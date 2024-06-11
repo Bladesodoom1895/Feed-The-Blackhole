@@ -2,8 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Dropper : MonoBehaviour
-{
+public class Dropper : MonoBehaviour {
+
     [SerializeField] GameObject food;
     [SerializeField] float delaySpawn = 1;
     [SerializeField] int foodVal = 1;

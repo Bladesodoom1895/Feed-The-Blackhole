@@ -18,7 +18,7 @@ public class FoodOnClick : MonoBehaviour
     void Update()
     {
         if(Input.GetMouseButtonDown(0)) {
-            Vector3 pos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+            Vector3 pos = Input.mousePosition;
             if(pos.y > 600) {
                 for (int i = 0; i < foodCount; i++) {
                     int rotat = Random.Range(1, 360);
